@@ -1,0 +1,19 @@
+#寄存订单审核通过
+customer_1:
+  path: /api/order/order/customerService/confirm
+  headers:
+    Content-Type: application/json
+    Authorization:
+  data:
+    orderId: 295136
+    orderType: '7'
+    orderStatus: '71'
+    logistics: ''
+    logisticsSn: ''
+    consignmentFreight: ''
+    pathList:
+      - >-
+        http://192.168.31.222:8999/group1/M00/00/6A/wKgf3mHnx66AU2ixAI_rXEamusY80.jfif
+    remark: 接口测试
+    viewRemark: 客服审核通过
+  text: 200

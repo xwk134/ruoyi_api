@@ -1,0 +1,6 @@
+staffOrder1_1:
+  path: /api/order/staffOrder/list?pageNum=1&pageSize=20&beginTime=&endTime=&
+  headers:
+    Content-Type: application/json
+    Authorization:
+  text: 200

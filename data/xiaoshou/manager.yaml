@@ -1,0 +1,10 @@
+#普通订单经理审核通过
+manager_1:
+  path: /api/order/order/manager/confirm
+  headers:
+    Content-Type: application/json
+    Authorization:
+  data:
+    orderId: 295320
+    viewRemark: "经理审核通过"
+  text: 200

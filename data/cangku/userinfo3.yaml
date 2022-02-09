@@ -1,0 +1,6 @@
+userinfo3_1:
+  path: /api/system/user/getInfo
+  headers:
+    Content-Type: application/json
+    Authorization:
+  text: 王美星

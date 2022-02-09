@@ -1,0 +1,44 @@
+#新增延迟单
+saveSaleOrder3_1:
+  path: /api/order/order/saveSaleOrder
+  headers:
+    Content-Type: application/json
+    Authorization:
+  data:
+    id: ''
+    isList: '1'
+    cmsId: 131299710
+    cmsCouponCustomerDTOS: []
+    appointmentTime: '2022-01-25'
+    customerServiceImages: []
+    payImages:
+      - >-
+        http://192.168.31.222:8999/group1/M00/00/67/wKgf3mHj4H6AaqvxAAcPC5cIlrU802.jpg
+    depotId: 3
+    freightAmount: 0
+    goods:
+      - activityId: 0
+        goodsId: 71
+        goodsNum: 1
+        type: 1
+    logisticsParam:
+      consignee: 测试1217
+      logisticsCompany: zhongtong
+      phone: '18598578541'
+      receivingAddress: 广东省东莞市东城区
+    orderRemark: 接口测试
+    orderSource: '1'
+    orderType: '4'
+    payAmount: '500'
+    payType: '2'
+    payTime: '2022-01-25 17:07:24'
+    poundage: 0
+    viewRemark: 提交订单
+    dealMethod: '1'
+    nextOpen: '2023-01-27'
+    activityIdList:
+      - 0
+    cmsType: '4'
+    isDeposit: '0'
+    goodsAmount: '0'
+  text: 200

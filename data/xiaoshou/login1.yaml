@@ -1,0 +1,11 @@
+#账号密码验证码正确，登录成功
+login1_1:
+  path: /api/auth/login
+  headers:
+    Content-Type: application/json
+  data:
+    username: 陈淑珍
+    password: 123456
+    code: 666
+    uuid: be07fc79fd4d482795b7f576e0ed6bab
+  text: 200

@@ -1,0 +1,6 @@
+list1_1:
+  path: /api/order/order/list?pageNum=1&pageSize=50&roleType=1&isEgo=1&orderStatus=&orderSn=&cmsName=&cmsPhone=&orderType=&orderByColumn=&isAsc=&beginCreatedTime=&endCreatedTime=&
+  headers:
+    Content-Type: application/json
+    Authorization:
+  text: 200

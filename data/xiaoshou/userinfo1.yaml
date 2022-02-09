@@ -1,0 +1,6 @@
+userinfo1_1:
+  path: /api/system/user/getInfo
+  headers:
+    Content-Type: application/json
+    Authorization:
+  text: 陈淑珍

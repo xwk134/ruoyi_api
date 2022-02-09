@@ -1,0 +1,14 @@
+#新增员工订单
+staffOrder_1:
+  path: /api/order/staffOrder/add
+  headers:
+    Content-Type: application/json
+    Authorization:
+  data:
+    taskId: 76
+    imageList:
+      - "http://192.168.31.222:8999/group1/M00/00/65/wKgf3mHXoRuAJIYhAACLY_hPHsc764.jpg"
+    remark: null
+    goodsInfos:
+      - {goodsId: 75,number: 1}
+  text: 200

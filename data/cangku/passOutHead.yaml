@@ -1,0 +1,16 @@
+#订单仓库发货
+passOutHead_1:
+  path: /api/depot/inout/passOutHead
+  headers:
+    Content-Type: application/json
+    Authorization:
+  data:
+    id: 696
+    orderId: 295381
+    logisticsSn: '3478934934444'
+    subType: '6'
+    headId: 76581
+    packingFee: '12'
+    staffOrderId: ''
+    remark: ''
+  text: 200

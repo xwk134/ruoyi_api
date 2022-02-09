@@ -1,0 +1,21 @@
+#新增员工订单任务
+staffOrderTask_1:
+  path: /api/order/staffOrderTask/add
+  headers:
+    Content-Type: application/json
+    Authorization:
+  data:
+    goodsList:
+      - {goodsId: 75,maxStock: 2388}
+    taskInfo:
+      taskName: "测试员工任务"
+      discount: "75"
+      beginTime: "2022-01-07 10:12:46"
+      endTime: "2022-11-04 10:12:48"
+      maxAmount: "2000"
+      papType: "1"
+      accountNum: "13434689321"
+      accountQrcode: "http://192.168.31.222:8999/group1/M00/00/64/wKgf3mHTrQiAYDkjAATSvgNR3wg335.jpg"
+      depotId: 3
+      remark: "测试任务"
+  text: 200

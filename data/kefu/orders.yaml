@@ -1,0 +1,6 @@
+orders_1:
+  path: /api/order/order/list?pageNum=1&pageSize=20&roleType=4&selectType=2&orderType=&orderStatus=&orderSn=&receiverName=&receiverPhone=&deptId=&userName=&orderByColumn=&isAsc=&
+  headers:
+    Content-Type: application/json
+    Authorization:
+  text: 200

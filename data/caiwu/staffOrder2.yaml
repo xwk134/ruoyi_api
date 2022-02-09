@@ -1,0 +1,6 @@
+staffOrder2_1:
+  path: /api/order/staffOrder/details?id=54&
+  headers:
+    Content-Type: application/json
+    Authorization:
+  text: 200

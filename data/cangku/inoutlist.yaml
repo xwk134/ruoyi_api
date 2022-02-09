@@ -1,0 +1,6 @@
+inoutlist_1:
+  path: /api/depot/inout/list?pageNum=1&pageSize=50&type=2&status=6&isDelay=0&subType=&orderSn=&cmsName=&cmsPhoneNumber=&orderBill=&
+  headers:
+    Content-Type: application/json
+    Authorization:
+  text: 200

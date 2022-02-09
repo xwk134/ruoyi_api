@@ -1,0 +1,6 @@
+staffOrderTask1_1:
+  path: /api/order/staffOrderTask/details?id=62&
+  headers:
+    Content-Type: application/json
+    Authorization:
+  text: 测试员工任务

@@ -1,0 +1,44 @@
+#新增寄存订单
+saveSaleOrder1_1:
+  path: /api/order/order/saveSaleOrder
+  headers:
+    Content-Type: application/json
+    Authorization:
+  data:
+    id: ''
+    isList: '1'
+    cmsId: 131299710
+    cmsCouponCustomerDTOS: []
+    appointmentTime: ''
+    customerServiceImages: []
+    payImages:
+      - >-
+        http://192.168.31.222:8999/group1/M00/00/67/wKgf3mHj1mqAKgx9AAcIauM_tUo512.jpg
+    depotId: 3
+    freightAmount: 0
+    goods:
+      - activityId: 0
+        goodsId: 71
+        goodsNum: '6'
+        type: 1
+    logisticsParam:
+      consignee: 测试1217
+      logisticsCompany: zhongtong
+      phone: '18598578541'
+      receivingAddress: 江西省南昌市高新区紫阳大道航天大厦
+    orderRemark: 接口测试
+    orderSource: '1'
+    orderType: '7'
+    payAmount: '3000'
+    payType: '1'
+    payTime: '2022-01-16 16:24:29'
+    poundage: 0
+    viewRemark: 提交订单
+    dealMethod: '1'
+    nextOpen: '2022-01-31'
+    activityIdList:
+      - 0
+    cmsType: '4'
+    isDeposit: '0'
+    goodsAmount: '0'
+  text: 200

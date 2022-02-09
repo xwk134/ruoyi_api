@@ -1,0 +1,11 @@
+#普通订单财务审核通过
+fiinance_1:
+  path: /api/order/order/finance/confirm
+  headers:
+    Content-Type: application/json
+    Authorization:
+  data:
+    orderId: 295320
+    orderType: '1'
+    viewRemark: 财务审核普通订单通过
+  text: 200
