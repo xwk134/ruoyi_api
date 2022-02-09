@@ -552,7 +552,7 @@ class UnitForTest(unittest.TestCase):
 
 class UnitForTest1(unittest.TestCase):
     def test_01(self):
-        print("OA接口")
+        print("OA接口...")
 
 if __name__ == '__main__':
     unittest.main()
