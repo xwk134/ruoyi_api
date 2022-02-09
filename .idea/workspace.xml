@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbce763c-a3e6-45af-a226-12ba93fa9fbe" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -466,8 +465,16 @@
       <workItem from="1642821189317" duration="15200000" />
       <workItem from="1642995400905" duration="17416000" />
       <workItem from="1643078843540" duration="4617000" />
-      <workItem from="1644390636657" duration="4112000" />
+      <workItem from="1644390636657" duration="4697000" />
     </task>
+    <task id="LOCAL-00001" summary="测试">
+      <created>1644394959769</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644394959769</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -503,7 +510,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183353000" />
+    <option name="totallyTimeSpent" value="183938000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -515,10 +522,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="864" y="387" width="1464" height="1036" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30840456" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23081024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -533,7 +539,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.33694476" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="11" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.3292683" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.32212582" />
       <window_info anchor="bottom" id="调试" order="13" sideWeight="0.49946696" weight="0.35587582" />
       <window_info anchor="bottom" id="Python Console" order="14" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -598,6 +604,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ruoyi_order$Unittests_for_cases_demo_api_cases.coverage" NAME="Unittests for cases_demo.api_cases Coverage Results" MODIFIED="1641299124412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases_demo" />
